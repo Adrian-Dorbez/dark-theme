@@ -1,0 +1,27 @@
+{
+	"name": "adrinos-dark-theme",
+	"version": "1.2.0",
+	"icon": "logo.png",
+	"publisher": "Adrino8830",
+	"displayName": "Adrinos Theme",
+	"description": "Adrinos Theme for VSC",
+	"engines": {
+		"vscode": "^1.44.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Adrian-Dorbez/dark-theme.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Adrinos Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-theme.json"
+			}
+		]
+	},
+}
